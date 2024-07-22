@@ -17,7 +17,7 @@ layout: default
 			{%- endif -%}
 			{%- if tags -%}
 			•
-			{%- for tag in tags -%}
+			{%- for tag in page.tags -%}
 			<span itemprop="keywords" itemscope itemtype="http://schema.org/Text"><span class="p-tag" itemprop="name"><a href="{{ "/archive#" | append: tag | relative_url }}">#{{ tag }}</a></span></span>
 			{%- endfor -%}
 			{%- endif -%}
