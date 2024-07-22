@@ -1,4 +1,4 @@
-title: "Blog"
+title: "Joe's Blog"
 author: "Joe Koop"
 description: "This is my blog. I don't know what I'm doing."
 
@@ -19,13 +19,12 @@ github_username: "jkoop"
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "minima"
-
 rss: rss
 
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
