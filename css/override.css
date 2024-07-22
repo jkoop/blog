@@ -1,6 +1,14 @@
+.site-header {
+	border-top: none;
+}
+
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+pre {
+  padding: 0px;
 }
 
 /* Post navigation links */
