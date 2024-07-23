@@ -12,12 +12,12 @@ Simplified ERD is designed for fast writing (drawing?) of ERD ideas and is based
 
 ## Arrow Heads
 
-| Symbol    | Description / Designation |
-| --------- | ------------------------- |
-| `---\|O`  | zero or one               |
-| `--\|\|O` | zero or more              |
-| `----\|`  | exactly one               |
-| `---\|\|` | one or more               |
+| Symbol  | Description / Designation |
+| ------- | ------------------------- |
+| `---|O` | zero or one               |
+| `--||O` | zero or more              |
+| `----|` | exactly one               |
+| `---||` | one or more               |
 
 ## Examples
 
