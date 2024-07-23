@@ -1,24 +1,26 @@
 ---
 title: Nodecore Recipes
 description: Recipe book for the Minetest game Nodecore
+tags: nodecore
 ---
 
 <style>
-    tr.border-on-top {
+    article tr.border-on-top {
         border-top: 1px solid grey;
     }
 
-    td {
+    article td {
         padding: 0.5em 0;
         vertical-align: top;
     }
 
-    ul {
+    article table ul {
         margin: 0;
+        margin-left: 1rem;
     }
 
     @media only screen and (min-width: 800px) {
-        ul {
+        article ul {
             width: max-content;
         }
     }
