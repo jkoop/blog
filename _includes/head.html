@@ -13,7 +13,7 @@
   {% seo %}
   <!-- End SEO -->
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/css/override.css" | relative_url }}">
 
   {% feed_meta %}
@@ -25,8 +25,8 @@
   {%- endif %}
 
   <!-- Begin highlight.js support -->
-  <link rel="stylesheet" href="{{ "/js/highlightjs/styles/github.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/js/highlightjs/styles/ssms.css" | relative_url }}" />
+  <link rel="stylesheet" href="{{ "/js/highlightjs/styles/github-dark.css" | relative_url }}" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="{{ "/js/highlightjs/styles/github.css" | relative_url }}" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
 
   <script src="{{ "/js/highlightjs/highlight.min.js" | relative_url }}"></script>
   <script src="{{ "/js/highlightjs/languages/bash.min.js" | relative_url }}"></script>
