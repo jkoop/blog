@@ -9,7 +9,9 @@ minima:
 
 rss: rss
 
-markdown: GFM
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
 
 plugins:
   - jekyll-feed

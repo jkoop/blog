@@ -76,8 +76,8 @@ test "parseFromSliceLeaky Contact" {
 
 I tried to include every type of data that you'd want to parse from a JSON document.
 
-> [!TIP]  
-> There are some gotchas here: Nothing has a default value out-of-the-box. Even if you define something as being optional, if the JSON document doesn't specify a value for it, it won't default to `null`; it'll cause `std.json.<whatever>` to return a `MissingField` error.
+**TIP**  
+There are some gotchas here: Nothing has a default value out-of-the-box. Even if you define something as being optional, if the JSON document doesn't specify a value for it, it won't default to `null`; it'll cause `std.json.<whatever>` to return a `MissingField` error.
 
 [ok-analytics]: https://github.com/jkoop/ok-analytics
 [zig-json]: https://ziglang.org/documentation/0.13.0/std/#std.json
