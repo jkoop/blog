@@ -38,7 +38,7 @@ const std = @import("std");
 const Contact = struct {
     id: u64,
     first_name: []u8,
-    last_name: ?[]u8 = null, // to support parsing JSON without this member set, give it a default value
+    last_name: ?[]u8 = null,
     phone_numbers: []struct {
         type: enum { home, mobile, work },
         number: []u8,
