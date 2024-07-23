@@ -15,8 +15,7 @@ tags: nodecore
     }
 
     article table ul {
-        margin: 0;
-        margin-left: 1rem;
+        margin-block: 0;
     }
 
     @media only screen and (min-width: 800px) {
