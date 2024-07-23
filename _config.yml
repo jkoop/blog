@@ -2,23 +2,11 @@ title: "Joe's Blog"
 author: "Joe Koop"
 description: "This is my blog. I don't know what I'm doing."
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-#email: "user@null"
-#twitter_username: username
-github_username: "jkoop"
-#linkedin_username: username
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+#theme: "minima"
+remote_theme: jekyll/minima
+minima:
+  skin: auto
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
 rss: rss
 
 kramdown:
@@ -28,6 +16,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
